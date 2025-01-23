@@ -1,4 +1,4 @@
-# VK-to_Telegram-Image-Poster
+# VK_to_Telegram_Image_Poster
 A Python script that fetches images from VK using API VK and automatically posts them to a specified Telegram channel via Telegram Bot API. This scrips helps automate the transfer of media between the two platformes
 
 Этот скрипт автоматически проверяет наличие новых постов в указанном паблике ВК и пересылает изображения в телеграм-канал. Мне он был необходим для автопостинга мемов из паблика в телеграм-канал, т.к. какому-то количеству подписчиков телеграмм был удобнее. Скрипт использует VK API для получения данных из паблика и Telegram Bot API для публикации изображений.
