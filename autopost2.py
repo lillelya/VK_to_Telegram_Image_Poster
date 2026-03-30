@@ -21,7 +21,7 @@ logger = logging.getLogger(__name__)
 
 # --------------------- ФУНКЦИЯ VK ---------------------
 def send_to_vk(file_path, caption=""):
-    """Постинг фото в VK через group token"""
+    # постим в VK через group token
     try:
         vk_session = vk_api.VkApi(token=VK_TOKEN)
         vk = vk_session.get_api()
